@@ -297,6 +297,17 @@ h2 {
   margin: 0;
 }
 
+.contact-card a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--coral);
+  text-underline-offset: 3px;
+}
+
+.contact-card a:hover {
+  color: var(--ink);
+}
+
 .arrow {
   font-size: 23px;
   align-self: end;
